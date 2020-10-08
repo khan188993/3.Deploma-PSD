@@ -190,6 +190,7 @@ img {
 .btn-gray {
 
     background: var(--price-btn-bg);
+    border: 2px solid var(--price-btn-bg);
 
 }
 
@@ -399,5 +400,99 @@ img {
 
 
 /* ========= Pricing Part Start ===========  */
+.single-price {
+    box-shadow: 0px 0px 7px 1px #00000037;
+}
+
+.single-price h1 {
+    font-size: 26px;
+    font-weight: 600;
+    background: var(--price-bg);
+    color: var(--white);
+    text-align: center;
+    padding: 22px 0;
+    margin: 0;
+}
+
+.single-price h2 {
+    color: var(--price-content-color);
+    text-align: center;
+    background: #f8f9fb;
+    margin: 0;
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.single-price ul li {
+    border-top: 2px solid #0000000f;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.single-price .price-btn {
+    padding: 20px 0;
+    background: #f8f9fb;
+    text-align: center;
+}
+
+.single-price .price-btn .btn-gray {
+    padding: 10px 50px;
+    font-weight: 600;
+}
+
+
+.single-price.active h1 {
+    background: var(--light-blue);
+}
+
+.single-price.active .price-btn a {
+    background: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+
 /* ========= What Clients Part Start ===========  */
+
+
 /* ========= Contact Part Start ===========  */
+#contact {
+    background: url(../images/contact-bg.png);
+}
+
+#contact .sectionHeading h1 {
+    color: var(--white);
+}
+
+
+.contact-text h1 {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact-text .social-icons a {
+    display: inline-block;
+    background: aliceblue;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.contact-text .social-icons a.facebook {
+    background: var(--fb-color);
+    color: var(--white);
+}
+
+.contact-text .social-icons a.twitter {
+    background: var(--light-blue);
+    color: var(--white);
+}
+
+.contact-text .social-icons a.google {
+    background: var(--red);
+    color: var(--white);
+}
