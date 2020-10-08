@@ -1,0 +1,210 @@
+/* ========= Google Font Add ===========  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+
+    /* colors  */
+    --light-blue: #49cbcd;
+    --light-gray: #f8f9fb;
+    --white: #ffffff;
+    --black: #000000;
+    --main-text: #4e525d;
+    --link-color: #484c55;
+    --section-color: #f1f1f1;
+    --red: #e44c41;
+    --price-bg: #485460;
+    --price-content-color: #8c9299;
+    --price-btn-bg: #788492;
+    --client-name-color: #9a8faf;
+    --contact-info-color: #bface2;
+    --placeholder-color: #c1c1c1;
+    --fb-color: #3b5997;
+
+
+    /* fonts  */
+    --open-sans:'Open Sans', sans-serif;
+ 
+
+}
+
+/* ========= GlobalStyle Part Start ===========  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--open-sans);
+    overflow-x: hidden;
+    color:var(--main-text);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+}
+
+.col-1 {
+    width: 8.33%;
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 0 15px;
+}
+
+.col-9 {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding: 0 15px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 0%;
+    height: 0%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+section {
+    padding: 100px 0;
+}
+
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: darkgrey;
+
+}
+
+h1,
+h2,
+p {
+    margin-bottom: 15px;
+}
+
+img{
+    width:100%;
+}
+
+.sectionHeading h1 {
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+
+
+
+.btn {
+    color: var(--light-blue);
+    transition: .3s;
+    
+}
+
+.btn-blue {
+    background: var(--white);
+}
+
+
+
+.btn-gray {
+
+    background: var(--price-btn-bg);
+   
+}
+
+
+
+/* ========= Mobile Menu Part Start ===========  */
+/* ========= Header Part Start ===========  */
+
+
+
+
+
+
+/* ========= Services Part Start ===========  */
+/* ========= Portfolio Part Start ===========  */
+/* ========= Team Part Start ===========  */
+/* ========= Pricing Part Start ===========  */
+/* ========= What Clients Part Start ===========  */
+/* ========= Contact Part Start ===========  */
