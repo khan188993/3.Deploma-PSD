@@ -1,5 +1,5 @@
 /* ========= Google Font Add ===========  */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
 
 :root {
 
@@ -22,8 +22,8 @@
 
 
     /* fonts  */
-    --open-sans:'Open Sans', sans-serif;
- 
+    --open-sans: 'Open Sans', sans-serif;
+
 
 }
 
@@ -36,7 +36,7 @@ html {
 body {
     font-family: var(--open-sans);
     overflow-x: hidden;
-    color:var(--main-text);
+    color: var(--main-text);
 
 }
 
@@ -157,17 +157,17 @@ p {
     margin-bottom: 15px;
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
 }
 
 .sectionHeading h1 {
     font-size: 42px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
@@ -175,21 +175,22 @@ img{
 
 
 .btn {
-    color: var(--light-blue);
+    border: 2px solid var(--light-blue);
+    background: var(--light-blue);
+    color: var(--white);
+    padding: 10px 16px;
+    border-radius: 5px;
+    display: inline-block;
     transition: .3s;
-    
 }
 
-.btn-blue {
-    background: var(--white);
-}
 
 
 
 .btn-gray {
 
     background: var(--price-btn-bg);
-   
+
 }
 
 
@@ -197,13 +198,167 @@ img{
 /* ========= Mobile Menu Part Start ===========  */
 /* ========= Header Part Start ===========  */
 
+#header {
+    background: var(--white);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    width: 117px;
+    margin-top: 35px;
+}
+
+.nav-menu nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu nav ul {
+    display: flex;
+}
+
+.nav-menu nav ul li a {
+    display: block;
+    padding: 43px 14px;
+}
+
+.nav-menu nav ul li:first-child a {
+    color: var(--light-blue);
+    background: var(--light-gray);
+    border-bottom: 4px solid var(--light-blue);
+}
+
+.nav-menu nav ul li:hover a {
+    color: var(--light-blue);
+    background: var(--light-gray);
+    border-bottom: 4px solid var(--light-blue);
+}
+
+/* ========= Slider Part Start ===========  */
+.hero-slider {
+    position: relative;
+}
+
+.single-slider {
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.slider-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    color: var(--white);
+}
 
 
+.slider-text h1 {
+    font-weight: 600;
+    font-size: 63px;
+}
+
+.slider-text p {
+    font-size: 23px;
+    color: var(--white);
+    margin: 30px 0 60px 0;
+    text-align: center;
+    line-height: 37px;
+}
+
+.slider-text .btn {
+    border: 3px solid var(--white);
+    padding: 18px 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.hero-slider .slider-active .owl-nav div {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-blue);
+    font-size: 40px;
+    background: var(--white);
+    border-radius: 50%;
+}
+
+.hero-slider .slider-active .owl-nav div.owl-next {
+    left: auto;
+    right: 30px;
+}
 
 
 
 /* ========= Services Part Start ===========  */
+
+.single-service {
+    text-align: center;
+  }
+
+.single-service i {
+    display: inline-block;
+    border: 2px solid var(--light-blue);
+    color: var(--light-blue);
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 34px;
+    border-radius: 50%;
+    margin-bottom: 45px;
+}
+
+.single-service h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.single-service p {
+    line-height: 26px;
+}
+
+
+
+
+
 /* ========= Portfolio Part Start ===========  */
+
+#portfolio {
+    padding-top: 50px;
+    background: var(--section-color);
+  }
+  .porfolio-cards {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .porfolio-cards .single-portfolio {
+    margin-bottom: 28px;
+  }
+
+  .portfolio-btn {
+	text-align: center;
+}
+
+  .portfolio-btn a {
+	font-weight: 600;
+	padding: 18px 38px;
+	display: inline-block;
+}
+
 /* ========= Team Part Start ===========  */
 /* ========= Pricing Part Start ===========  */
 /* ========= What Clients Part Start ===========  */
