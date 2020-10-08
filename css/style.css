@@ -306,7 +306,7 @@ img {
 
 .single-service {
     text-align: center;
-  }
+}
 
 .single-service i {
     display: inline-block;
@@ -340,26 +340,64 @@ img {
 #portfolio {
     padding-top: 50px;
     background: var(--section-color);
-  }
-  .porfolio-cards {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-  .porfolio-cards .single-portfolio {
-    margin-bottom: 28px;
-  }
-
-  .portfolio-btn {
-	text-align: center;
 }
 
-  .portfolio-btn a {
-	font-weight: 600;
-	padding: 18px 38px;
-	display: inline-block;
+.porfolio-cards {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.porfolio-cards .single-portfolio {
+    margin-bottom: 28px;
+}
+
+.portfolio-btn {
+    text-align: center;
+}
+
+.portfolio-btn a {
+    font-weight: 600;
+    padding: 18px 38px;
+    display: inline-block;
 }
 
 /* ========= Team Part Start ===========  */
+
+.single-team {
+    text-align: center;
+}
+
+.single-team .team-img {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.team-cards {
+    margin-top: 80px;
+}
+
+.single-team .team-content h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.single-team .team-content h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -11px;
+}
+
+.team-content p {
+    line-height: 26px;
+}
+
+
+
+
 /* ========= Pricing Part Start ===========  */
 /* ========= What Clients Part Start ===========  */
 /* ========= Contact Part Start ===========  */
