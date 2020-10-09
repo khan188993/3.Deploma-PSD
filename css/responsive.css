@@ -77,25 +77,11 @@
         display: none;
     }
 
-    .nav-menu {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .btn-orange {
-        margin-right: 6px;
-        padding: 15px 25px;
-    }
-
-    #footer p {
-        padding: 0px 144px;
-        line-height: 33px;
-    }
-
+    
 
 }
 
-
+/* 992,768,576,350 */
 /* Tablet desktop :768px. md */
 @media (min-width: 768px) and (max-width: 991px) {
     .container {
@@ -166,73 +152,35 @@
         display: none;
     }
 
-    .header .logo {
-        text-align: center;
+    .single-service {
+        margin-bottom: 70px;
     }
 
-    .nav-menu {
-        display: flex;
-        justify-content: center;
+    .single-team {
+        margin-bottom: 70px;
     }
 
-    .btn.btn-orange {
-        padding: 10px 20px;
-        margin-right: 0;
-        margin-top: 0;
-        margin-bottom: 9px;
+    .client-text p {
+        font-size: 16px;
+        padding: 0px 130px;
+        margin-top: 20px;
     }
 
-    .single-services {
-        padding: 15px;
+    .input-wrapper-1 {
+        flex-direction: column;
     }
 
-    .why-we-card-single {
-        margin-bottom: 40px;
+    .input-wrapper-1 input:first-child {
+        margin-right: 0px;
+        margin-bottom: 27px;
     }
 
-    .single-work-card {
-        margin-bottom: 30px;
+    .input-wrapper-1 input, .input-wrapper-2 textarea {
+        width:100%;
+       
     }
 
-
-
-    .advertisers-text {
-        margin: 0;
-        margin-bottom: 80px;
-    }
-
-    .advertisers-text,
-    .advertisers-text .sectionHeading h1,
-    .advertisers-text .sectionHeading p {
-        text-align: center;
-    }
-
-    .iphone {
-        display: flex;
-        justify-content: center;
-    }
-
-    .publishers p {
-        padding: 0px 20px;
-    }
-
-    .fact-about p {
-        padding: 20px;
-
-    }
-
-    .sectionHeading h1,
-    .sectionHeading p{
-        text-align: center;
-    }
-
-    .single-fact-card {
-        margin-bottom: 30px;
-    }
-
-    #footer p {
-        padding: 20px;
-    }
+    
 }
 
 
@@ -306,115 +254,144 @@
         display: none;
     }
 
-    .sectionHeading h1 {
-        font-size: 35px;
+    .logo {
+        width: 90px;
+        margin: 17px 0;
     }
 
-    .hamberger{
-        display:block;
+    .slider-text {
+        padding-top: 120px;
     }
 
-    #header {
-        min-height: 470px;
-    }
-
-    .hero-text {
-        margin-top: 25px;
-    }
-
-    .hero-text div.text h1 {
-       font-size: 36px;
-    }
-
-    .hero-text div.text {
-        padding-top: 80px;
-    }
-
-    .logo img {
-        width: 155px;
-    }
-
-    .all-services {
-        margin-top: 0px;
-    }
-
-    .btn.btn-orange {
-        padding: 17px 20px;
-    }
-
-    .single-services {
-        margin-bottom: 40px;
-    }
-
-    .why-we-card-single {
+    .slider-text h1 {
+        font-size: 28px;
         text-align: center;
-        margin-bottom: 50px;
+    }
+
+    .slider-text p {
+        font-size: 16px;
+        margin: 7px 0 33px 0;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .slider-text .btn {
+        padding: 9px 20px;
+        font-size: 18px;
+ 
+    }
+
+    .hero-slider .slider-active .owl-nav div {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 53%;
+        left: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white);
+        font-size: 18px;
+        border-radius: 50%;
+        background: none;
+    }
+
+    .single-slider {
+        min-height: 47vh;
+        background-size: cover;
+    }
+
+    .hero-slider .slider-active .owl-nav div.owl-next {
+        right: 4px;
+    }
+
+    .sectionHeading h1 {
+        font-size: 28px;
     }
 
     section{
         padding:50px 0;
     }
 
-    .single-work-card {
-        margin-bottom: 35px;
+    .service-cards,.team-cards {
+        margin-top: 25px;
     }
 
-    .advertisers-text,
-    .advertisers-text .sectionHeading h1,
-    .advertisers-text .sectionHeading p {
-        text-align: center;
+    .single-service,.single-team,.single-price {
+        margin-bottom: 50px;
     }
 
-    .advertisers-text {
-        margin: 0;
-        margin-bottom: 80px;
+    .single-service h2 {
+        font-size: 19px;
     }
 
-    .iphone {
-        display: flex;
-        justify-content: center;
+    .single-service p {
+        line-height: 22px;
+        font-size: 14px;
     }
 
-    .iphone img {
-        width: 100%;
-    }
-
-    .advertisers-img a{
-        margin-right: 10px;
-    }
-    .advertisers-img img {
-        width: 100px;
-    }
-
-
-    .agencies .sectionHeading h1,
-    .agencies .sectionHeading p {
-        text-align: center;
-    }
-
-    .publishers p {
+    .client-text p {
+        font-size: 14px;
+        line-height: 28px;
         padding: 0px 0px;
     }
 
-    .fact-about p {
-        padding: 0px 0px;
+    .client-slider .client-slider-active .owl-nav div {
+        display: none;
     }
 
-    .single-fact-card {
-        margin-bottom: 30px;
+    .contact-content {
+        margin-top: 19px;
     }
 
     .contact-text {
+        margin-bottom: 30px;
+    }
+
+    .input-wrapper-1 {
+        flex-direction: column;
+    }
+
+    .input-wrapper-1 input:first-child {
+        margin-right: 0px;
+        margin-bottom: 27px;
+    }
+
+    .input-wrapper-1 input, .input-wrapper-2 textarea {
+        width:100%;
+       
+    }
+
+    .contact-text p {
+      padding: 0px;
+    }
+
+    .input-wrapper-3 {
+        text-align: center;
+    }
+
+    .single-team .team-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .nav-menu nav ul li a {
+        padding: 11px 6px;
+        font-size: 14px;
+    }
+
+    .logo {
         width: 100%;
+        text-align: center;
+        margin-top: 12px;
     }
-
-    .contact-text h1 {
-        font-size: 25px;
+    .logo img {
+        width:90px;
     }
-
-    #footer p {
-        padding: 0px 0px;
+    .nav-menu nav {
+        justify-content: center;
     }
+    
 
 }
 
@@ -422,6 +399,10 @@
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .container {
         width: 550px
+    }
+
+    .single-service p,.team-content p {
+        padding: 0 106px;
     }
 
 }
