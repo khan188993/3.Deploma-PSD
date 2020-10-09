@@ -258,6 +258,10 @@ img {
     color: var(--white);
 }
 
+.slider-text .btn {
+	background: none;
+}
+
 
 .slider-text h1 {
     font-weight: 600;
@@ -304,6 +308,9 @@ img {
 
 
 /* ========= Services Part Start ===========  */
+.service-cards {
+	margin-top: 70px;
+}
 
 .single-service {
     text-align: center;
@@ -400,6 +407,10 @@ img {
 
 
 /* ========= Pricing Part Start ===========  */
+#pricing-table {
+    background: var(--section-color);
+}
+
 .single-price {
     box-shadow: 0px 0px 7px 1px #00000037;
 }
@@ -428,6 +439,7 @@ img {
     border-top: 2px solid #0000000f;
     text-align: center;
     padding: 14px 0;
+    background-color: var(--white);
 }
 
 .single-price .price-btn {
@@ -453,11 +465,61 @@ img {
 
 
 /* ========= What Clients Part Start ===========  */
+.client-slider {
+    margin-top: 65px;
+}
+
+.single-client {
+    text-align: center;
+}
+
+.single-client .img {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.client-text p {
+    font-size: 19px;
+    line-height: 30px;
+    padding: 0px 256px;
+}
+
+.client-text h2 {
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--client-name-color);
+    margin-top: 10px;
+}
+
+.client-slider .client-slider-active .owl-nav div {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    color: var(--black);
+    font-size: 24px;
+}
+
+.client-slider .client-slider-active .owl-nav div.owl-next {
+    left: auto;
+    right: 30px;
+
+}
+
+
+
+
+
+
+
 
 
 /* ========= Contact Part Start ===========  */
 #contact {
     background: url(../images/contact-bg.png);
+    background-size: cover;
 }
 
 #contact .sectionHeading h1 {
@@ -495,4 +557,67 @@ img {
 .contact-text .social-icons a.google {
     background: var(--red);
     color: var(--white);
+}
+
+
+.input-wrapper-1 {
+    display: flex;
+}
+
+.input-wrapper-1 input,
+.input-wrapper-2 textarea {
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.input-wrapper-1 input:first-child {
+    margin-right: 27px;
+}
+
+.input-wrapper-2 textarea {
+    margin: 27px 0;
+    width: 100%;
+}
+
+
+.input-wrapper-3 .btn {
+    padding: 11px 55px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.input-wrapper-3 {
+    text-align: right;
+}
+
+::placeholder {
+    color: var(--placeholder-color);
+    font-size: 16px;
+}
+
+
+.contact-info h3 {
+    font-size: 14px;
+    color: var(--contact-info-color);
+    font-weight: 400;
+}
+
+.contact-info h3:nth-child(2) {
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.contact-text p {
+    padding-right: 127px;
+    line-height: 21px;
+}
+
+.contact-content {
+    margin-top: 110px;
 }
